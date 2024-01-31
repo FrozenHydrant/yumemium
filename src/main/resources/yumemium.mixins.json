@@ -1,0 +1,13 @@
+{
+   "required":true,
+   "minVersion":"0.8",
+   "package":"betathunder.yumemium.mixin",
+   "compatibilityLevel":"JAVA_16",
+   "refmap":"yumemium.refmap.json",
+   "client":[
+      "BlockEntityRenderDispatcherMixin", "ParticleMixin", "LevelRendererMixin", "FogRendererMixin", "ClientLevelMixin"
+   ],
+   "injectors":{
+      "defaultRequire":1
+   }
+}
