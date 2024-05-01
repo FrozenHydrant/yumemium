@@ -23,6 +23,10 @@ public class Config
     private static final ForgeConfigSpec.IntValue BLOCK_INDICATOR_DISTANCE = BUILDER
             .comment("The maximum distance, in blocks, at which to draw a glass block as a placeholder for TileEntities")
             .defineInRange("blockIndicatorDistance", 32, 0, 1000000);
+    
+    private static final ForgeConfigSpec.IntValue ENTITY_DISTANCE = BUILDER
+            .comment("The maximum distance, in blocks, at which to draw Entities")
+            .defineInRange("entityDistance", 32, 0, 1000000);
 
     //public static final ForgeConfigSpec.ConfigValue<String> MAGIC_NUMBER_INTRODUCTION = BUILDER
     //        .comment("What you want the introduction message to be for the magic number")
@@ -37,11 +41,13 @@ public class Config
 
     public static int blockEntityDistance;
     public static int blockIndicatorDistance;
+    public static int entityDistance;
 
     @SubscribeEvent
     static void onLoad(final ModConfigEvent event)
     {
     	blockEntityDistance = BLOCK_ENTITY_DISTANCE.get() * BLOCK_ENTITY_DISTANCE.get();
     	blockIndicatorDistance = BLOCK_INDICATOR_DISTANCE.get() * BLOCK_INDICATOR_DISTANCE.get();
+    	entityDistance = ENTITY_DISTANCE.get() * ENTITY_DISTANCE.get();
     }
 }
