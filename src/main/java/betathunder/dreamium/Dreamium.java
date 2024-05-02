@@ -1,4 +1,4 @@
-package betathunder.yumemium;
+package betathunder.dreamium;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -12,15 +12,15 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(Yumemium.MODID)
-public class Yumemium
+@Mod(Dreamium.MODID)
+public class Dreamium
 {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "yumemium";
+    public static final String MODID = "dreamium";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public Yumemium()
+    public Dreamium()
     {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

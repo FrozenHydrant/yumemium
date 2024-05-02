@@ -1,10 +1,10 @@
-package betathunder.yumemium.mixin;
+package betathunder.dreamium.mixin;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-import betathunder.yumemium.Config;
+import betathunder.dreamium.Config;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.block.BlockRenderDispatcher;

@@ -1,4 +1,4 @@
-package betathunder.yumemium.mixin;
+package betathunder.dreamium.mixin;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;

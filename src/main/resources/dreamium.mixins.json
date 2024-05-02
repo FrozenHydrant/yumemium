@@ -1,9 +1,9 @@
 {
    "required":true,
    "minVersion":"0.8",
-   "package":"betathunder.yumemium.mixin",
+   "package":"betathunder.dreamium.mixin",
    "compatibilityLevel":"JAVA_16",
-   "refmap":"yumemium.refmap.json",
+   "refmap":"dreamium.refmap.json",
    "client":[
       "BlockEntityRenderDispatcherMixin", "ParticleMixin", "LevelRendererMixin", "FogRendererMixin", "ClientLevelMixin"
    ],
